@@ -36,10 +36,10 @@ func UserMangmentSystem() {
 			showUsernamesAndPasswords()
 		case 3:
 			saveUsersToFile()
-			fmt.Println("Thank you for using Password Manager!\n")
+			fmt.Println("3Thank you for using Password Manager!\n")
 			return
 		default:
-			fmt.Println("Invalid choice. Please try again.")
+			fmt.Println("\nInvalid choice. Please try again.")
 		}
 	}
 }
